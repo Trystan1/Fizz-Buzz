@@ -33,3 +33,10 @@ for i in range(1, 1786):
         print(i)            # print just the number if no rules have been applied
     else:
         print(Statement)    # print the string of words as per the rules
+
+# This works fine but could be shortened by using lists rather than manually appending to a long string
+# Statement = [] # is how you make an empty list
+# then Statement.append('string')
+# Statement.clear() # to empty the list for 11
+# Statement.reverse() # as a much easier version of 17
+# 13 actually doesn't get much shorter though
